@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>World Cup Draft Scoring</title>
+  <style>
+    body { margin: 0; padding: 32px; background: #f8fafc; color: #111827; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 1180px; margin: 0 auto; display: grid; gap: 24px; }
+    h1, h2, h3, p { margin-top: 0; }
+    .meta { color: #475569; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 18px; }
+    .player-card, .standings-card { padding: 18px; border: 1px solid #e2e8f0; border-radius: 8px; background: #ffffff; box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08); }
+    .team-block { margin: 12px 0; padding: 14px; border-left: 6px solid var(--team-side); border-radius: 8px; color: var(--team-text); background: linear-gradient(135deg, color-mix(in srgb, var(--team-primary) 16%, #ffffff), color-mix(in srgb, var(--team-secondary) 28%, #ffffff) 52%, color-mix(in srgb, var(--team-accent) 16%, #ffffff)); }
+    .team-block header { display: flex; justify-content: space-between; gap: 12px; align-items: start; }
+    .team-block header div { display: grid; gap: 3px; text-align: right; }
+    ol { margin: 10px 0 0; padding-left: 20px; }
+    .match { display: grid; grid-template-columns: 1fr auto auto; gap: 12px; padding: 8px 0; border-top: 1px solid rgba(15, 23, 42, 0.14); }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { padding: 8px 10px; border: 1px solid #e2e8f0; text-align: left; }
+    th { background: #f1f5f9; }
+    tbody tr { color: var(--team-text); border-left: 6px solid var(--team-side); }
+    .empty { color: #64748b; }
+    @media print { body { padding: 16px; } .player-card, .standings-card { box-shadow: none; break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>World Cup Draft Scoring</h1>
+      <p class="meta">Draft saved: 6/7/2026, 8:44:27 PM | Exported: 6/11/2026, 4:38:31 PM</p>
+    </header>
+    <section>
+      <h2>Player Standings</h2>
+      <div class="grid">
+      <section class="standings-card">
+        <h2>Jared</h2>
+        <p><strong>P:</strong> 3 <strong>GF:</strong> 2 <strong>GA:</strong> 0 <strong>GD:</strong> +2</p>
+        <table>
+          <thead><tr><th>Team</th><th>GP</th><th>W</th><th>L</th><th>D</th><th>P</th><th>GF</th><th>GA</th><th>GD</th></tr></thead>
+          <tbody>
+      <tr style="--team-primary: #FFDE00; --team-secondary: #009C3B; --team-accent: #2D2A4A; --team-text: #009C3B; --team-side: #FFDE00">
+        <td>BRA</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+    
+      <tr style="--team-primary: #006847; --team-secondary: #FFFFFF; --team-accent: #CE1126; --team-text: #006847; --team-side: #CE1126">
+        <td>MEX</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>3</td>
+        <td>2</td>
+        <td>0</td>
+        <td>+2</td>
+      </tr>
+    
+      <tr style="--team-primary: #EF3340; --team-secondary: #FFFFFF; --team-accent: #EF3340; --team-text: #EF3340; --team-side: #EF3340">
+        <td>AUT</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+    
+      <tr style="--team-primary: #CE1126; --team-secondary: #FFFFFF; --team-accent: #C0930C; --team-text: #CE1126; --team-side: #C0930C">
+        <td>EGY</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+    
+      <tr style="--team-primary: #FFFFFF; --team-secondary: #007A3D; --team-accent: #007A3D; --team-text: #007A3D; --team-side: #007A3D">
+        <td>IRQ</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+    
+      <tr style="--team-primary: #007FFF; --team-secondary: #CE1126; --team-accent: #FCD116; --team-text: #CE1126; --team-side: #007FFF">
+        <td>COD</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+    </tbody>
+        </table>
+      </section>
+    </div>
+    </section>
+    <section>
+      <h2>Players & Teams</h2>
+      <div class="grid">
+      <section class="player-card">
+        <h2>Jared</h2>
+        
+        <article class="team-block" style="--team-primary: #FFDE00; --team-secondary: #009C3B; --team-accent: #2D2A4A; --team-text: #009C3B; --team-side: #FFDE00">
+          <header>
+            <h3>Brazil</h3>
+            <div><strong>0 pts</strong><span>GD: 0</span></div>
+          </header>
+          <ol>
+            <li class="match">
+              <span>Jun 12 - 22:00 - vs MAR</span>
+              <strong>Not scored</strong>
+              <span></span>
+            </li>
+          
+            <li class="match">
+              <span>Jun 19 - 00:30 - vs HAI</span>
+              <strong>Not scored</strong>
+              <span></span>
+            </li>
+          
+            <li class="match">
+              <span>Jun 23 - 22:00 - vs SCO</span>
+              <strong>Not scored</strong>
+              <span></span>
+            </li>
+          </ol>
+        </article>
+      
+        <article class="team-block" style="--team-primary: #006847; --team-secondary: #FFFFFF; --team-accent: #CE1126; --team-text: #006847; --team-side: #CE1126">
+          <header>
+            <h3>Mexico</h3>
+            <div><strong>3 pts</strong><span>GD: +2</span></div>
+          </header>
+          <ol>
+            <li class="match">
+              <span>Jun 10 - 19:00 - vs RSA</span>
+              <strong>2 - 0</strong>
+              <span>W 3</span>
+            </li>
+          
+            <li class="match">
+              <span>Jun 18 - 01:00 - vs KOR</span>
+              <strong>Not scored</strong>
+              <span></span>
+            </li>
+          
+            <li class="match">
+              <span>Jun 24 - 01:00 - vs CZE</span>
+              <strong>Not scored</strong>
+              <span></span>
+            </li>
+          </ol>
+        </article>
+      
+        <article class="team-block" style="--team-primary: #EF3340; --team-secondary: #FFFFFF; --team-accent: #EF3340; --team-text: #EF3340; --team-side: #EF3340">
+          <header>
+            <h3>Austria</h3>
+            <div><strong>0 pts</strong><span>GD: 0</span></div>
+          </header>
+          <ol>
+            <li class="match">
+              <span>Jun 16 - 04:00 - vs JOR</span>
+              <strong>Not scored</strong>
+              <span></span>
+            </li>
+          
+            <li class="match">
+              <span>Jun 21 - 17:00 - vs ARG</span>
+              <strong>Not scored</strong>
+              <span></span>
+            </li>
+          
+            <li class="match">
+              <span>Jun 27 - 02:00 - vs ALG</span>
+              <strong>Not scored</strong>
+              <span></span>
+            </li>
+          </ol>
+        </article>
+      
+        <article class="team-block" style="--team-primary: #CE1126; --team-secondary: #FFFFFF; --team-accent: #C0930C; --team-text: #CE1126; --team-side: #C0930C">
+          <header>
+            <h3>Egypt</h3>
+            <div><strong>0 pts</strong><span>GD: 0</span></div>
+          </header>
+          <ol>
+            <li class="match">
+              <span>Jun 14 - 19:00 - vs BEL</span>
+              <strong>Not scored</strong>
+              <span></span>
+            </li>
+          
+            <li class="match">
+              <span>Jun 21 - 01:00 - vs NZL</span>
+              <strong>Not scored</strong>
+              <span></span>
+            </li>
+          
+            <li class="match">
+              <span>Jun 26 - 03:00 - vs IRN</span>
+              <strong>Not scored</strong>
+              <span></span>
+            </li>
+          </ol>
+        </article>
+      
+        <article class="team-block" style="--team-primary: #FFFFFF; --team-secondary: #007A3D; --team-accent: #007A3D; --team-text: #007A3D; --team-side: #007A3D">
+          <header>
+            <h3>Iraq</h3>
+            <div><strong>0 pts</strong><span>GD: 0</span></div>
+          </header>
+          <ol>
+            <li class="match">
+              <span>Jun 15 - 22:00 - vs NOR</span>
+              <strong>Not scored</strong>
+              <span></span>
+            </li>
+          
+            <li class="match">
+              <span>Jun 21 - 21:00 - vs FRA</span>
+              <strong>Not scored</strong>
+              <span></span>
+            </li>
+          
+            <li class="match">
+              <span>Jun 25 - 19:00 - vs SEN</span>
+              <strong>Not scored</strong>
+              <span></span>
+            </li>
+          </ol>
+        </article>
+      
+        <article class="team-block" style="--team-primary: #007FFF; --team-secondary: #CE1126; --team-accent: #FCD116; --team-text: #CE1126; --team-side: #007FFF">
+          <header>
+            <h3>Congo DR</h3>
+            <div><strong>0 pts</strong><span>GD: 0</span></div>
+          </header>
+          <ol>
+            <li class="match">
+              <span>Jun 16 - 17:00 - vs POR</span>
+              <strong>Not scored</strong>
+              <span></span>
+            </li>
+          
+            <li class="match">
+              <span>Jun 23 - 02:00 - vs COL</span>
+              <strong>Not scored</strong>
+              <span></span>
+            </li>
+          
+            <li class="match">
+              <span>Jun 26 - 23:30 - vs UZB</span>
+              <strong>Not scored</strong>
+              <span></span>
+            </li>
+          </ol>
+        </article>
+      
+      </section>
+    </div>
+    </section>
+  </main>
+</body>
+</html>
